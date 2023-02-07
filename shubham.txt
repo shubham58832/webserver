@@ -2,3 +2,4 @@
 yum install httpd -y
 systemctl enable --now httpd
 echo "good night > /var/www/html"
+systemctl restart httpd
